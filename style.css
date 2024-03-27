@@ -1,0 +1,156 @@
+
+.section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+    
+
+.bgimage {
+    height:100vh;
+    background: url('images/smoke.jpg');
+    background-size:cover;
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+
+.hero_title {
+    padding-top: 10rem;
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.image_about {
+    width: 100%;
+}
+
+.navbarDark {
+    background: #0f0f0f;
+}
+
+
+
+
+
+
+.fab {
+    color: #000000;
+}
+
+.servicesText.card {
+ 
+    cursor: pointer;
+    text-align: center;
+    color: rgb(240, 231, 228);
+    background-color: #141313;
+  }
+.infoText.card {
+ 
+    cursor: pointer;
+    text-align: left;
+    color: rgb(235, 73, 15);
+    background-color: #141313;
+  }
+
+
+
+
+
+.card-title {
+    text-align: center;
+}
+
+
+#about, #services, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+#footer
+{
+
+    color: #d34418;
+    
+   
+
+
+    
+    
+}
+
+.yhteys
+{
+
+
+    text-align: center;
+    color: #d34418;
+    padding-top: 40px;
+}
+
+
+
+
+
+.gradient-border:hover {
+  --borderWidth: 4px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #bfda45, #e2e60c, #dd6c20, #c94219, #bb1414, #ff0000, #b32f07, #ca6a0f);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  -webkit-animation: animatedgradient 3s ease alternate infinite;
+          animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@-webkit-keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
